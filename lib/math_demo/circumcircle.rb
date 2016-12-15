@@ -1,8 +1,6 @@
 # Circumcircle from 3 points
 require_relative './pbisector'
 
-Vect = Struct.new(:x, :y, :z)
-
 class Circumcircle
   attr_reader :center, :radius, :points
   def initialize(points)
@@ -15,6 +13,10 @@ class Circumcircle
     @center = circumcenter(ab, bc)
     @radius = center.dist(points[2]) # points[2] = c
   end
+
+  private
+
+  Vect = Struct.new(:x, :y, :z)
 
   def circumcenter(pb1, pb2)
     # equation of the first bisector (ax - y =  -b)
