@@ -1,7 +1,7 @@
 require_relative './test_helper'
 require_relative '../lib/math_demo/pbisector'
 
-METHODS = [:midpoint, :angle]
+METHODS = %i(midpoint angle).freeze
 
 class PBisectorTest < Minitest::Test
   def setup

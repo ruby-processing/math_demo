@@ -1,7 +1,7 @@
 require_relative './test_helper'
 require_relative '../lib/math_demo/circumcircle'
 
-METHODS = [:center, :radius, :calculate]
+METHODS = %i(center radius calculate).freeze
 
 class CircumcircleTest < Minitest::Test
   def setup
