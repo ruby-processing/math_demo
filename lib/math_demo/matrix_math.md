@@ -11,7 +11,7 @@ by = {{x<sub>1</sub><sup>2</sup> + y<sub>1</sub><sup>2</sup> x<sub>1</sub> 1}, {
 
 xo = -bx / 2 * a
 
-yo = -bx / 2 * a
+yo = -by / 2 * a
 
 
 [circumcircle]:http://mathworld.wolfram.com/Circumcircle.html
