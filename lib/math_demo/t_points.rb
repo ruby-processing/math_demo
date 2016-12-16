@@ -20,7 +20,12 @@ class TrianglePoints
   end
 
   def collinear?
-    full? ? (points[0] - points[1]).cross(points[1] - points[2]).zero? : false
+    full? ? (positions[0] - positions[1]).cross(positions[1] - positions[2]).zero? : false
+  end
+
+  # returns positions as an array of Vec2D
+  def positions
+    points.map(&:pos)
   end
 
   def full?
