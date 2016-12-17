@@ -9,6 +9,6 @@ jgem install math_demo
 
 to run
 
-```
+```bash
 math_demo
 ```

@@ -15,3 +15,8 @@ desc 'Gem'
 task :gem do
   sh 'gem build math_demo.gemspec'
 end
+
+desc 'clean'
+task :clean do
+  sh "rm *.gem"
+end
