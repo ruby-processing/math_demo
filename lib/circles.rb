@@ -1,8 +1,8 @@
 #!/usr/bin/env jruby
 require 'propane'
-require_relative 'circumcircle'
-require_relative 't_points'
-require_relative 'triangle_point'
+require_relative 'math_demo/circumcircle'
+require_relative 'math_demo/t_points'
+require_relative 'math_demo/triangle_point'
 
 class Circles < Propane::App
 
