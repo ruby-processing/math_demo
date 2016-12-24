@@ -7,7 +7,7 @@ require_relative 'math_demo/triangle_point'
 class Circles < Propane::App
 
   def settings
-    size(800, 600, P2D)
+    size(800, 600)
   end
 
   def setup
