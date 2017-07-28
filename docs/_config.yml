@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   This is an example of how to create a propane project in atom.
 baseurl: "" # the subpath of your site, e.g. /blog
 regenerate: true
-url: "https://ruby-processing.github.io/math_demo"
+url: "https://ruby-processing.github.io/math_demo/"
 
 urls:
   bugs: https://github.com/ruby-processing/math_demo/issues
