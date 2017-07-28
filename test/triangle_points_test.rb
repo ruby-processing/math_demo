@@ -1,6 +1,8 @@
+#!/usr/bin/env jruby
 require_relative './test_helper'
 require_relative '../lib/math_demo/t_points'
 require_relative '../lib/math_demo/triangle_point'
+# NB: uncomment line 6 triangle_point.rb for testing
 
 METHODS = %i(each map size shift clear [] collinear? full?).freeze
 

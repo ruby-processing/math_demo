@@ -1,3 +1,4 @@
+#!/usr/bin/env jruby
 require_relative './test_helper'
 require_relative '../lib/math_demo/circumcircle'
 
