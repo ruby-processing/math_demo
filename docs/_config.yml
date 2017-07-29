@@ -15,7 +15,7 @@ twitter_username: monkstoneT
 github_username:  monkstone
 
 sass:
-    sass_dir: _sass
+  sass_dir: _sass
 
 syntax-highlighting:
   enabled: true
