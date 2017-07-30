@@ -19,8 +19,8 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
   spec.required_ruby_version = '>= 2.3'
-  spec.add_runtime_dependency 'propane', '~> 2.1'
+  spec.add_runtime_dependency 'propane', '~> 2.3'
   spec.platform      = 'java'
-  spec.add_development_dependency 'rake', '~> 11.2'
-  spec.add_development_dependency 'minitest', '~> 5.8'
+  spec.add_development_dependency 'rake', '~> 12'
+  spec.add_development_dependency 'minitest', '~> 5.10'
 end
