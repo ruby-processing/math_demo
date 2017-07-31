@@ -13,6 +13,7 @@ Gem::Specification.new do |spec|
   EOS
   spec.summary = %q{Example of creating a propane app.}
   spec.homepage = "https://ruby-processing.github.io/propane/"
+  spec.post_install_message = %q{Congratulations you've just installed a propane gem.}
   spec.license = 'GPL-3.0'
   spec.files = FileList['bin/**/*', 'lib/**/*'].exclude(/jar/).to_a
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
