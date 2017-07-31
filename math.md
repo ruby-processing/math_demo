@@ -1,4 +1,8 @@
-### Matrix Math ###
+### The Circumcircle of a Triangle ###
+
+Is a circle which passes through all three vertices of a triangle. See [Math Open Reference][math_open]. See also this simpler [propane sketch][circumcircle_sketch], note the simplified collinearity test in the `Points` class, where we make use of Vec2D math (don't try this processings PVector because, it doesn't know whether it is 2D or 3D vector and hence deeply flawed).
+
+### Using Matrix Math ###
 
 For detailed workings see [Circumcircle at Mathworld Wolfram.com][circumcircle]
 
@@ -14,4 +18,6 @@ xo = -bx / 2 * a
 yo = -by / 2 * a
 
 
+[math_open]:http://www.mathopenref.com/trianglecircumcircle.html
 [circumcircle]:http://mathworld.wolfram.com/Circumcircle.html
+[circumcircle_sketch]:https://github.com/ruby-processing/propane-examples/blob/master/processing_app/library/vecmath/vec2d/circumcircle_sketch.rb

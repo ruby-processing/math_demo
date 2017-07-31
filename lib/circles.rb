@@ -11,7 +11,7 @@ class Circles < Propane::App
   end
 
   def setup
-    sketch_title 'Circles'
+    sketch_title 'Math Demo'
     color_mode(HSB, 360, 100, 100, 100)
     reset
     ellipse_mode(RADIUS)
