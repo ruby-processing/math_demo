@@ -14,8 +14,8 @@ urls:
 twitter_username: monkstoneT
 github_username:  monkstone
 theme: jekyll-theme-hacker
-sass:
-  sass_dir: _sass
+# sass:
+#  sass_dir: _sass
 
 syntax-highlighting:
   enabled: true
