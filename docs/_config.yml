@@ -13,7 +13,7 @@ urls:
   github: https://github.com/ruby-processing/math_demo/
 twitter_username: monkstoneT
 github_username:  monkstone
-
+theme: jekyll-theme-modern
 sass:
   sass_dir: _sass
 
