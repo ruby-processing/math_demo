@@ -1,5 +1,5 @@
 # math_demo
-An example of how you might develop an app with propane
+An example of how you might develop an app as a gem with propane
 
 to install
 
