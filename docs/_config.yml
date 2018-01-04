@@ -24,3 +24,4 @@ markdown: kramdown
 gems:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-theme-cayman
