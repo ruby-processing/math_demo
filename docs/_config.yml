@@ -13,9 +13,9 @@ urls:
   github: https://github.com/ruby-processing/math_demo/
 twitter_username: monkstoneT
 github_username:  monkstone
-
-sass:
-  sass_dir: _sass
+theme: jekyll-theme-cayman
+# sass:
+#  sass_dir: _sass
 
 syntax-highlighting:
   enabled: true
@@ -24,3 +24,4 @@ markdown: kramdown
 gems:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-theme-cayman
