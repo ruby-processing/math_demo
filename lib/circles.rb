@@ -52,4 +52,3 @@ class Circles < Propane::App
   end
 end
 
-Circles.new
