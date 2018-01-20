@@ -2,15 +2,14 @@
 # particle and triangle point
 class TPoint
   include Propane::Proxy
-  attr_reader :pos, :vel, :accel, :xbound, :ybound
+  attr_reader :pos, :vel, :accel, :bounds
   # attr_reader :width, :height # uncomment for testing
 
   def initialize(position)
     @pos = position
     @vel = Vec2D.new
     @accel = Vec2D.random
-    @xbound = Boundary.new(0, width)
-    @ybound = Boundary.new(0, height)
+    @bounds = [Boundary.new(0, width), Boundary.new(0, height)]
   end
 
   def direction(acc)
@@ -33,8 +32,8 @@ class TPoint
   private
 
   def check_bounds
-    @vel.x *= -1 if xbound.exclude? pos.x
-    @vel.y *= -1 if ybound.exclude? pos.y
+    @vel.x *= -1 if bounds[0].exclude? pos.x
+    @vel.y *= -1 if bounds[1].exclude? pos.y
   end
 end
 
