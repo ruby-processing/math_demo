@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   triangles, created from moving points
   EOS
   spec.summary = %q{An example of a propane app as gem.}
-  spec.homepage = "https://ruby-processing.github.io/propane/"
+  spec.homepage = "https://ruby-processing.github.io/math_demo/"
   spec.post_install_message = %q{Congratulations you've just installed propane.}
   spec.license = 'GPL-3.0'
   spec.files = FileList['bin/**/*', 'lib/**/*'].exclude(/jar/).to_a
