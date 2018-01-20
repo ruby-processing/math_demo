@@ -27,8 +27,11 @@ rake
 ```
 Or to run individual sketches `cd` to directory and:-
 ```bash
-jruby sketch_name.rb
+cd ~/propane_samples/processing_app/library/vecmath/vec2d
+jruby circumcircle_sketch.rb
 ```
+Changing directories is particulary important for sketches with extra files eg `data` or relative `*.rb` files.
+
 Or explore using `atom` editor and use `script` plugin to run (NB: make sure the file type is `Ruby` or `JRubyArt`, sketches wont run with type as `Ruby on Rails`) also make sure `jruby` is on your `path`.
 
 ### Propane documentation
